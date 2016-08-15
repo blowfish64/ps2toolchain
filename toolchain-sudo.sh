@@ -10,6 +10,7 @@
  export PATH=$PATH:$PS2DEV/bin
  export PATH=$PATH:$PS2DEV/ee/bin
  export PATH=$PATH:$PS2DEV/iop/bin
+ export PATH=$PATH:$PS2DEV/powerpc-none-eabi/bin
  export PATH=$PATH:$PS2DEV/dvp/bin
  export PATH=$PATH:$PS2SDK/bin
 

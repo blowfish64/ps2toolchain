@@ -34,7 +34,7 @@
  fi
 
  ## For each target...
- for TARGET in "ee" "iop"; do
+ for TARGET in "ee" "iop" "powerpc-none-eabi"; do
   ## Create and enter the build directory.
   mkdir build-$TARGET-stage1 && cd build-$TARGET-stage1 || { exit 1; }
 

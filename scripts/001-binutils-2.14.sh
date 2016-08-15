@@ -27,7 +27,7 @@
  fi
 
  ## For each target...
- for TARGET in "ee" "iop" "dvp"; do
+ for TARGET in "ee" "iop" "powerpc-none-eabi" "dvp"; do
 
   ## Create and enter the build directory.
   mkdir build-$TARGET && cd build-$TARGET || { exit 1; }
